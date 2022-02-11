@@ -1,0 +1,137 @@
+@import "null.css";
+
+@font-face {
+	font-family: "Lobster";
+	src: url("../fonts/Lobster-Regular.woff2") format("woff2"), url("../fonts/Lobster-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Vinneta";
+	src: url("../fonts/Vinneta-Regular.woff2") format("woff2"), url("../fonts/Vinneta-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+body {
+	font-size: 20px;
+	font-family: "Vinneta";
+	line-height: 1.2;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+.header {
+}
+.header-name {
+	background-color: rgb(230, 230, 144);
+	font-size: 56px;
+	color: rgb(248, 163, 6);
+	font-family: "Lobster";
+	text-shadow: 5px 5px 5px #98963291;
+	text-align: center;
+	margin: 20px auto;
+	border: 10px dotted green;
+	border-radius: 30%;
+	max-width: 500px;
+	outline: 10px solid yellow;
+	box-shadow: inset 5px 5px 10px 10px rgb(8, 255, 8);
+}
+.header-image {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.main {
+}
+.section1 {
+	font-family: "Lobster";
+	font-size: 24px;
+	color: blue;
+	border: 5px solid #621598;
+	margin-bottom: 30px;
+	outline: 10px dotted blue;
+	box-shadow: inset -10px -10px 10px 10px rgb(8, 164, 255);
+	/*border-radius: 97% 3% 49% 51% / 47% 0% 100% 53%;*/
+}
+.section2 {
+	border: 5px dotted #621598;
+	margin-bottom: 30px;
+	border-radius: 5%;
+	padding: 10px;
+	outline: 10px solid red;
+	box-shadow: inset 5px 5px 10px 10px rgb(255, 8, 152);
+	color: #621598;
+}
+.section2 > p {
+	border: none;
+}
+.section2-header {
+}
+.section3 {
+	border: 15px double #1dff43;
+	margin-bottom: 30px;
+	border-radius: 10px 20px 100px 20px;
+	padding: 10px;
+	box-shadow: 5px 5px 10px 10px rgb(151, 107, 252);
+	color: #1dff43;
+	opacity: 0.5;
+}
+.section4 {
+	border: 5px solid #621598;
+	margin-bottom: 5%;
+	border-radius: 5px 10px 100px 10px;
+	padding: 10px;
+	outline: 10px dashed purple;
+	box-shadow: 5px -5px 10px 10px rgb(151, 107, 252);
+	color: blue;
+}
+.section5 {
+	border: 5px dashed #621598;
+	margin-bottom: 30px;
+	margin-bottom: 5%;
+	padding: 10%;
+	border-radius: 50%;
+	box-shadow: inset -10px 5px 10px 10px rgb(151, 107, 252);
+	opacity: 0.5;
+	color: brown;
+}
+.section6 {
+	border: 10px solid green;
+	border-top: 10px solid #621598;
+	margin-bottom: 5%;
+	padding: 5%;
+	border-radius: 50px 100px;
+	box-shadow: 5px 5px 30px 10px rgb(151, 107, 252);
+	color: #1dff43;
+}
+.section6-header {
+}
+.section7 {
+	border: 20px solid pink;
+	border-left: 20px solid #621598;
+	margin-bottom: 5%;
+	padding: 5%;
+	border-radius: 0% 100% 43% 57% / 99% 100% 0% 1%;
+	box-shadow: inset 5px 5px 10px 10px rgb(189, 120, 245);
+	color: chocolate;
+}
+.section7-header {
+	border: 5px double blue;
+	border-bottom: solid #621598;
+}
+.section7 > p {
+	border: none;
+}
+.section8 {
+	border: 20px dotted yellow;
+	border-right: 20px solid #621598;
+	margin-bottom: 5%;
+	box-shadow: -5px -5px 40px 10px rgb(218, 215, 70);
+	color: aqua;
+}
